@@ -1,0 +1,59 @@
+-------------------------------------------------------------------------------
+Test set: runners.UsersRunner
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 8.517 s <<< FAILURE! - in runners.UsersRunner
+features/users/create-user.[1:9] Registrar usuario con datos válidos  Time elapsed: 4.343 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:features/users/create-user.feature:4
+
+features/users/delete-user.[1:9] Eliminar usuario existente  Time elapsed: 0.215 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:features/users/delete-user.feature:4
+
+features/users/get-user.[1:9] Obtener usuario por ID  Time elapsed: 0.285 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:features/users/get-user.feature:4
+
+features/users/list-users.[1:6] Obtener lista de usuarios  Time elapsed: 0.103 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:features/users/list-users.feature:4
+
+features/users/update-user.[1:9] Actualizar usuario existente  Time elapsed: 0.388 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:features/users/update-user.feature:4
+
